@@ -8,6 +8,9 @@
 
 import UIKit
 import Firebase
+import FirebaseCore
+import FirebaseAuth
+
 class SignUPVC: UIViewController {
 
  
@@ -23,29 +26,28 @@ class SignUPVC: UIViewController {
                 AlertController.showAlert(self, title: "Missing Info", message: "Please fill out all fields")
                 return
         }
-        FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (user, error) in
+        
+        Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
             
             guard error == nil else {
                 AlertController.showAlert(self, title: "Error", message: error!.localizedDescription)
                 return
             }
-            guard let email = email else { return }
-            print(user.email ?? "MISSING EMAIL")
-            print(user.uid)
-            
-            let changeRequest = user.profileChangeRequest()
-            changeRequest.displayName = email
-            changeRequest.commitChanges(completion: { (error) in
-                guard error == nil else {
-                    AlertController.showAlert(self, title: "Error", message: error!.localizedDescription)
-                    return
-                }
-                
-                self.performSegue(withIdentifier: "openLogOutpage", sender: nil)
-                
-            })
-            
-            
+//            guard let email = email else { return }
+//            print(user.email ?? "MISSING EMAIL")
+//            print(user.uid)
+//
+//            let changeRequest = user.profileChangeRequest()
+//            changeRequest.displayName = email
+//            changeRequest.commitChanges(completion: { (error) in
+//                guard error == nil else {
+//                    AlertController.showAlert(self, title: "Error", message: error!.localizedDescription)
+//                    return
+//                }
+//
+//                self.performSegue(withIdentifier: "openLogOutpage", sender: nil)
+//
+//            })
             
         })
         

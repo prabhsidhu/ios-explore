@@ -8,6 +8,9 @@
 
 import UIKit
 import Firebase
+import FirebaseCore
+import FirebaseAuth
+
 class SIgnInVC: UIViewController {
 
   
@@ -23,15 +26,15 @@ class SIgnInVC: UIViewController {
                 return
         }
         
-        FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, error) in
+        Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
             guard error == nil else {
                 AlertController.showAlert(self, title: "Error", message: error!.localizedDescription)
                 return
             }
-            guard let user = user else { return }
-            print(user.email ?? "MISSING EMAIL")
-            print(user.displayName ?? "MISSING DISPLAY NAME")
-            print(user.uid)
+//            guard let user = user else { return }
+//            print(user.name ?? "MISSING EMAIL")
+//            print(user.displayName ?? "MISSING DISPLAY NAME")
+//            print(user.uid)
             
             self.performSegue(withIdentifier: "logoutpage", sender: nil)
             

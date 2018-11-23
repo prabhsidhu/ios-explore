@@ -8,13 +8,15 @@
 
 import UIKit
 import Firebase
+import FirebaseCore
+//import FirebaseAuth
 
 class SignoutViewController: UIViewController {
 
     @IBAction func logout(_ sender: UIButton) {
         
         do {
-            try FIRAuth.auth()?.signOut()
+            try Auth.auth().signOut()
             performSegue(withIdentifier: "signOut", sender: nil)
         } catch {
             print(error)

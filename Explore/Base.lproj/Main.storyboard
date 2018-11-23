@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,10 +27,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1" translatesAutoresizingMaskIntoConstraints="NO" id="BIf-by-HCJ">
-                                <rect key="frame" x="135" y="100" width="104" height="155.5"/>
+                                <rect key="frame" x="135" y="100" width="105" height="155.5"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9Z-1Q-Ue6">
-                                <rect key="frame" x="80" y="328" width="215" height="59.5"/>
+                                <rect key="frame" x="80" y="327.5" width="215" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="u9Z-1Q-Ue6" secondAttribute="height" multiplier="18:5" id="7kM-eb-5ra"/>
@@ -92,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.5" y="28.5"/>
+            <point key="canvasLocation" x="-2060" y="28"/>
         </scene>
         <!--SignIn-->
         <scene sceneID="enn-Fw-bV5">
@@ -110,7 +108,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMo-m2-6up">
-                                <rect key="frame" x="69" y="510" width="236" height="30"/>
+                                <rect key="frame" x="69" y="510" width="237" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="1KS-Hv-DAN"/>
                                 </constraints>
@@ -195,7 +193,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CKj-I9-PUQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="O29-LN-pTN" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="880.20989505247383"/>
+            <point key="canvasLocation" x="-1574" y="1182"/>
         </scene>
         <!--Signout View Controller-->
         <scene sceneID="wIf-oE-Kkw">
@@ -419,7 +417,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ln8-dn-y1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020" y="878.41079460269873"/>
+            <point key="canvasLocation" x="929" y="1306"/>
         </scene>
         <!--Culture-->
         <scene sceneID="H8a-Nv-84q">
@@ -449,7 +447,7 @@
                                                 <rect key="frame" x="18" y="264" width="339" height="206"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nut-qW-hqD">
-                                                <rect key="frame" x="177" y="621" width="65" height="34"/>
+                                                <rect key="frame" x="177" y="623" width="65" height="32"/>
                                                 <color key="backgroundColor" red="0.55294117649999996" green="0.63921568630000003" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="65" id="lY0-hO-yhV"/>
@@ -495,7 +493,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brazil culture" translatesAutoresizingMaskIntoConstraints="NO" id="A1G-oY-v0U">
-                                                <rect key="frame" x="18" y="710" width="339" height="199"/>
+                                                <rect key="frame" x="18" y="710" width="340" height="199"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="199" id="ABI-wU-6Uw"/>
                                                 </constraints>
@@ -555,7 +553,7 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brazil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZ0-Is-zBd">
-                                        <rect key="frame" x="155" y="654" width="64" height="34"/>
+                                        <rect key="frame" x="155" y="654" width="65" height="34.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="aZ0-Is-zBd" secondAttribute="height" multiplier="32:17" id="HDP-TO-Dy2"/>
                                         </constraints>
@@ -858,14 +856,12 @@
                     <connections>
                         <outlet property="emailTF" destination="Oig-wu-lcz" id="vLH-iw-u4W"/>
                         <outlet property="passwordTF" destination="pQd-6F-bvr" id="Ss1-m8-RBZ"/>
-                        <outlet property="usernameTF" destination="Oig-wu-lcz" id="Qhf-KW-eFF"/>
                         <segue destination="IyH-px-4fg" kind="show" identifier="OpenSignInPage" id="2Id-3f-1oE"/>
-                        <segue destination="VIq-Eq-ewW" kind="show" identifier="openLogOutpage" id="wkU-Gv-15I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wO2-yf-jQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928.79999999999995" y="28.335832083958024"/>
+            <point key="canvasLocation" x="-194" y="27"/>
         </scene>
         <!--TourPage-->
         <scene sceneID="4Hn-Xv-vqw">
@@ -879,7 +875,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="1290"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acH-JJ-n6M">
-                                        <rect key="frame" x="18" y="58" width="340" height="188"/>
+                                        <rect key="frame" x="17.5" y="58" width="340" height="188"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="188" id="VRN-Es-dvJ"/>
                                             <constraint firstAttribute="width" secondItem="acH-JJ-n6M" secondAttribute="height" multiplier="85:47" id="ZMx-Y6-d9B"/>
@@ -891,7 +887,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vent" translatesAutoresizingMaskIntoConstraints="NO" id="DMv-q5-hAm">
-                                        <rect key="frame" x="17" y="326" width="341" height="226"/>
+                                        <rect key="frame" x="17" y="325.5" width="341" height="226"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="DMv-q5-hAm" secondAttribute="height" multiplier="341:226" id="2gS-k3-t4e"/>
                                             <constraint firstAttribute="width" secondItem="DMv-q5-hAm" secondAttribute="height" multiplier="341:226" id="e5D-We-jMS"/>
@@ -908,7 +904,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwT-72-7Sd">
-                                        <rect key="frame" x="262" y="720" width="65" height="30"/>
+                                        <rect key="frame" x="262" y="720.5" width="65" height="30"/>
                                         <color key="backgroundColor" red="0.55294117649999996" green="0.63921568630000003" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="iwT-72-7Sd" secondAttribute="height" multiplier="13:6" id="O4Q-Wz-pmF"/>
@@ -946,7 +942,7 @@
                                             <constraint firstAttribute="width" secondItem="lGC-za-Zls" secondAttribute="height" multiplier="339:157" id="kQR-bO-3UA"/>
                                         </constraints>
                                         <string key="text">The latin root of explore is explorare ,meaning investigate or search out.When you explore a new thing ,you want to know it more better and meet new people and interact with them so that you can understand each perspective in a healthy and friendly way.So here comes the solution for such people who want to explore certain cultures,food and events being held in British Columbia. </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1091,9 +1087,8 @@
         <image name="vent" width="2250" height="1500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hPg-tB-pST"/>
-        <segue reference="0Pp-QW-aGh"/>
-        <segue reference="vlZ-dT-WYq"/>
+        <segue reference="TBD-d6-E9d"/>
+        <segue reference="2Id-3f-1oE"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.50980392159999999" green="0.4431372549" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
 </document>
