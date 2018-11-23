@@ -12,14 +12,18 @@
 		0056470F219CCEDC00AD5496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0056470D219CCEDC00AD5496 /* Main.storyboard */; };
 		00564711219CCEDD00AD5496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00564710219CCEDD00AD5496 /* Assets.xcassets */; };
 		00564714219CCEDD00AD5496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00564712219CCEDD00AD5496 /* LaunchScreen.storyboard */; };
-		0056471D219CCF7400AD5496 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0056471C219CCF7300AD5496 /* Default-568h@2x.png */; };
 		0056471F219CD2E200AD5496 /* SignUPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0056471E219CD2E200AD5496 /* SignUPVC.swift */; };
 		00564721219CE14400AD5496 /* SIgnInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00564720219CE14400AD5496 /* SIgnInVC.swift */; };
+		BF3CC10C21A63231003D2FED /* CultureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3CC10B21A63231003D2FED /* CultureViewController.swift */; };
+		BF3CC10E21A6372C003D2FED /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3CC10D21A6372C003D2FED /* EventViewController.swift */; };
+		BF3CC11521A64F7E003D2FED /* heading.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF3CC11421A64F7D003D2FED /* heading.ttf */; };
+		BF3CC11721A64F85003D2FED /* body_text.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF3CC11621A64F85003D2FED /* body_text.otf */; };
+		BF3CC11B21A6571D003D2FED /* source-sans-pro in Resources */ = {isa = PBXBuildFile; fileRef = BF3CC11A21A6571D003D2FED /* source-sans-pro */; };
+		BFC4A8EA21A774450025BF04 /* SignoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4A8E921A774450025BF04 /* SignoutViewController.swift */; };
+		BFC4A8EC21A7825E0025BF04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFC4A8EB21A7825D0025BF04 /* GoogleService-Info.plist */; };
+		BFC4A8F021A795D10025BF04 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4A8EF21A795D10025BF04 /* AlertController.swift */; };
 		BFDF654B219E00A300EB00F4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF654A219E00A300EB00F4 /* HomeVC.swift */; };
 		BFDF654D219E048400EB00F4 /* TourpageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF654C219E048400EB00F4 /* TourpageVC.swift */; };
-		BFDF6552219E21B600EB00F4 /* culture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BFDF6551219E156500EB00F4 /* culture.jpeg */; };
-		BFDF655A219E39E700EB00F4 /* venture.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BFDF6559219E39E700EB00F4 /* venture.jpeg */; };
-		BFDF655C219E39F900EB00F4 /* food-salad-healthy-vegetables.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFDF655B219E39F900EB00F4 /* food-salad-healthy-vegetables.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +34,19 @@
 		00564710219CCEDD00AD5496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00564713219CCEDD00AD5496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00564715219CCEDD00AD5496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0056471C219CCF7300AD5496 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0056471E219CD2E200AD5496 /* SignUPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPVC.swift; sourceTree = "<group>"; };
 		00564720219CE14400AD5496 /* SIgnInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnInVC.swift; sourceTree = "<group>"; };
+		BF3CC10B21A63231003D2FED /* CultureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultureViewController.swift; sourceTree = "<group>"; };
+		BF3CC10D21A6372C003D2FED /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		BF3CC11421A64F7D003D2FED /* heading.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = heading.ttf; path = ../../../Downloads/heading.ttf; sourceTree = "<group>"; };
+		BF3CC11621A64F85003D2FED /* body_text.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = body_text.otf; path = ../../../Downloads/body_text.otf; sourceTree = "<group>"; };
+		BF3CC11A21A6571D003D2FED /* source-sans-pro */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "source-sans-pro"; path = "../../source-sans-pro"; sourceTree = "<group>"; };
+		BF3CC11C21A6579F003D2FED /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pacifico.ttf; path = ../../pacifico/Pacifico.ttf; sourceTree = "<group>"; };
+		BFC4A8E921A774450025BF04 /* SignoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignoutViewController.swift; sourceTree = "<group>"; };
+		BFC4A8EB21A7825D0025BF04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BFC4A8EF21A795D10025BF04 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		BFDF654A219E00A300EB00F4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		BFDF654C219E048400EB00F4 /* TourpageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourpageVC.swift; sourceTree = "<group>"; };
-		BFDF6551219E156500EB00F4 /* culture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = culture.jpeg; sourceTree = "<group>"; };
-		BFDF6559219E39E700EB00F4 /* venture.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = venture.jpeg; path = ../../../Downloads/venture.jpeg; sourceTree = "<group>"; };
-		BFDF655B219E39F900EB00F4 /* food-salad-healthy-vegetables.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "food-salad-healthy-vegetables.jpg"; path = "../../food-salad-healthy-vegetables.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +63,9 @@
 		005646FD219CCEDC00AD5496 = {
 			isa = PBXGroup;
 			children = (
-				BFDF654C219E048400EB00F4 /* TourpageVC.swift */,
-				BFDF654A219E00A300EB00F4 /* HomeVC.swift */,
-				0056471C219CCF7300AD5496 /* Default-568h@2x.png */,
 				00564708219CCEDC00AD5496 /* Explore */,
 				00564707219CCEDC00AD5496 /* Products */,
+				BF3CC10F21A64F38003D2FED /* fonts */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,27 +80,34 @@
 		00564708219CCEDC00AD5496 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				BFDF655B219E39F900EB00F4 /* food-salad-healthy-vegetables.jpg */,
-				BFDF6559219E39E700EB00F4 /* venture.jpeg */,
-				BFDF6551219E156500EB00F4 /* culture.jpeg */,
+				BFC4A8E921A774450025BF04 /* SignoutViewController.swift */,
+				BFDF654A219E00A300EB00F4 /* HomeVC.swift */,
+				BFDF654C219E048400EB00F4 /* TourpageVC.swift */,
 				0056471E219CD2E200AD5496 /* SignUPVC.swift */,
 				0056470B219CCEDC00AD5496 /* ViewController.swift */,
+				BF3CC10B21A63231003D2FED /* CultureViewController.swift */,
+				BF3CC10D21A6372C003D2FED /* EventViewController.swift */,
+				BFC4A8EF21A795D10025BF04 /* AlertController.swift */,
 				00564720219CE14400AD5496 /* SIgnInVC.swift */,
 				0056470D219CCEDC00AD5496 /* Main.storyboard */,
 				00564715219CCEDD00AD5496 /* Info.plist */,
+				BFC4A8EB21A7825D0025BF04 /* GoogleService-Info.plist */,
 				00564712219CCEDD00AD5496 /* LaunchScreen.storyboard */,
-				0056471B219CCF5000AD5496 /* Supporting files */,
+				00564709219CCEDC00AD5496 /* AppDelegate.swift */,
+				00564710219CCEDD00AD5496 /* Assets.xcassets */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
 		};
-		0056471B219CCF5000AD5496 /* Supporting files */ = {
+		BF3CC10F21A64F38003D2FED /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				00564709219CCEDC00AD5496 /* AppDelegate.swift */,
-				00564710219CCEDD00AD5496 /* Assets.xcassets */,
+				BF3CC11A21A6571D003D2FED /* source-sans-pro */,
+				BF3CC11421A64F7D003D2FED /* heading.ttf */,
+				BF3CC11621A64F85003D2FED /* body_text.otf */,
+				BF3CC11C21A6579F003D2FED /* Pacifico.ttf */,
 			);
-			path = "Supporting files";
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,13 +168,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3CC11721A64F85003D2FED /* body_text.otf in Resources */,
 				00564714219CCEDD00AD5496 /* LaunchScreen.storyboard in Resources */,
-				0056471D219CCF7400AD5496 /* Default-568h@2x.png in Resources */,
-				BFDF6552219E21B600EB00F4 /* culture.jpeg in Resources */,
+				BF3CC11B21A6571D003D2FED /* source-sans-pro in Resources */,
 				00564711219CCEDD00AD5496 /* Assets.xcassets in Resources */,
 				0056470F219CCEDC00AD5496 /* Main.storyboard in Resources */,
-				BFDF655A219E39E700EB00F4 /* venture.jpeg in Resources */,
-				BFDF655C219E39F900EB00F4 /* food-salad-healthy-vegetables.jpg in Resources */,
+				BFC4A8EC21A7825E0025BF04 /* GoogleService-Info.plist in Resources */,
+				BF3CC11521A64F7E003D2FED /* heading.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,10 +186,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0056470C219CCEDC00AD5496 /* ViewController.swift in Sources */,
+				BFC4A8EA21A774450025BF04 /* SignoutViewController.swift in Sources */,
 				BFDF654D219E048400EB00F4 /* TourpageVC.swift in Sources */,
 				BFDF654B219E00A300EB00F4 /* HomeVC.swift in Sources */,
 				0056471F219CD2E200AD5496 /* SignUPVC.swift in Sources */,
 				00564721219CE14400AD5496 /* SIgnInVC.swift in Sources */,
+				BFC4A8F021A795D10025BF04 /* AlertController.swift in Sources */,
+				BF3CC10E21A6372C003D2FED /* EventViewController.swift in Sources */,
+				BF3CC10C21A63231003D2FED /* CultureViewController.swift in Sources */,
 				0056470A219CCEDC00AD5496 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +344,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = prabhdeep.website.Explore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -343,6 +362,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = prabhdeep.website.Explore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

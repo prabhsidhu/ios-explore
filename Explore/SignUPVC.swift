@@ -7,14 +7,52 @@
 //
 
 import UIKit
-
+import Firebase
 class SignUPVC: UIViewController {
 
-
+ 
+    @IBOutlet var emailTF: UITextField!
+    @IBOutlet var passwordTF: UITextField!
     @IBAction func btnRegister(_ sender: UIButton) {
+        
+        guard let email = emailTF.text,
+        email != "",
+        let password = passwordTF.text,
+        password != ""
+            else {
+                AlertController.showAlert(self, title: "Missing Info", message: "Please fill out all fields")
+                return
+        }
+        FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (user, error) in
+            
+            guard error == nil else {
+                AlertController.showAlert(self, title: "Error", message: error!.localizedDescription)
+                return
+            }
+            guard let email = email else { return }
+            print(user.email ?? "MISSING EMAIL")
+            print(user.uid)
+            
+            let changeRequest = user.profileChangeRequest()
+            changeRequest.displayName = email
+            changeRequest.commitChanges(completion: { (error) in
+                guard error == nil else {
+                    AlertController.showAlert(self, title: "Error", message: error!.localizedDescription)
+                    return
+                }
+                
+                self.performSegue(withIdentifier: "openLogOutpage", sender: nil)
+                
+            })
+            
+            
+            
+        })
+        
+    
         self.performSegue(withIdentifier: "OpenSignInPage", sender: self)
     }
-    
+
     
     
     override func viewDidLoad() {

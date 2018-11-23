@@ -16,7 +16,7 @@ class HomeVC: UIViewController {
     @IBOutlet var Scroll: UIScrollView!
     
     @IBAction func btnTour(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "OpenTourPage", sender: self)
+        self.performSegue(withIdentifier: "Opentourpage", sender: self)
     }
     @IBAction func btnCulture(_ sender: UIButton) {
         self.performSegue(withIdentifier: "OpenCulturePage", sender: self)

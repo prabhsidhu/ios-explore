@@ -7,20 +7,48 @@
 //
 
 import UIKit
-
+import Firebase
 class SIgnInVC: UIViewController {
 
   
+    @IBOutlet var emailTF: UITextField!
+     @IBOutlet var passwordTF: UITextField!
     @IBAction func btnLogin(_ sender: UIButton) {
+        guard let email = emailTF.text,
+            email != "",
+            let password = passwordTF.text,
+            password != ""
+            else {
+                AlertController.showAlert(self, title: "Missing Info", message: "Please fill out all required fields")
+                return
+        }
+        
+        FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, error) in
+            guard error == nil else {
+                AlertController.showAlert(self, title: "Error", message: error!.localizedDescription)
+                return
+            }
+            guard let user = user else { return }
+            print(user.email ?? "MISSING EMAIL")
+            print(user.displayName ?? "MISSING DISPLAY NAME")
+            print(user.uid)
+            
+            self.performSegue(withIdentifier: "logoutpage", sender: nil)
+            
+            
+        })
+        
+    
          self.performSegue(withIdentifier: "openHome", sender: self)
     }
     
+   
     @IBAction func btnRegisterPage(_ sender: UIButton) {
        self.performSegue(withIdentifier: "OpenSignUpPage", sender: self)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+UIFont.boldSystemFont(ofSize: 18.0)
         // Do any additional setup after loading the view.
     }
 
