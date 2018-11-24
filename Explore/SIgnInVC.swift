@@ -36,13 +36,14 @@ class SIgnInVC: UIViewController {
 //            print(user.displayName ?? "MISSING DISPLAY NAME")
 //            print(user.uid)
             
-            self.performSegue(withIdentifier: "logoutpage", sender: nil)
+//            self.performSegue(withIdentifier: "logoutpage", sender: nil)
+              self.performSegue(withIdentifier: "openHome", sender: self)
             
             
         })
         
     
-         self.performSegue(withIdentifier: "openHome", sender: self)
+       
     }
     
    
